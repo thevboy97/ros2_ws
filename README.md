@@ -2,10 +2,10 @@
 Publish data from from a csv file and subscribe to it to get the time difference between consecutive datapoints in ROS using python.
 
 # Requirements
-ROS2 Humble
-python3
-pandas
-datetime
+1) ROS2 Humble
+2) python3
+3) pandas
+4) datetime
 
 # How to run
 1) Make sure there is ROS2 Humble version installed, and pandas and datetime libraries are installed for use in python3.
