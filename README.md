@@ -8,7 +8,7 @@ Publish data from from a csv file and subscribe to it to get the time difference
 4) datetime
 
 # How to run
-1) Make sure there is ROS2 Humble version installed, and pandas and datetime libraries are installed for use in python3.
+1) Make sure there is ROS2 Humble version installed, and pandas and datetime libraries are installed for use in python3. Download the ros2_ws to local machine.
 2) Install any missing dependencies.
    ```rosdep install -i --from-path src --rosdistro humble -y```
 3) Build the package in the root workspace ros2_ws using colcon build.
