@@ -2,7 +2,7 @@
 Publish data from from a csv file and subscribe to it to get the time difference between consecutive datapoints in ROS using python.
 
 # Description
-Inside the ```ros2_ws/src/py_pubsub``` folder, publisher_member_function.py and subscriber_member_function.py contain the pythonic publisher and subscriber nodes. The publisher logs the coordinates (longitude, latitude, altitude), time and actual speed on topic 'data'. The subscriber reads the message and publishes the time difference in seconds on topic 'diff'. 
+Inside the ```ros2_ws/src/py_pubsub``` folder, ```publisher_member_function.py``` and ```subscriber_member_function.py``` contain the pythonic publisher and subscriber nodes respectively. The publisher logs the coordinates (longitude, latitude, altitude), time and actual speed on topic 'data'. The subscriber reads the message and publishes the time difference in seconds on topic 'diff'. 
 
 # Requirements
 1) ROS2 Humble
