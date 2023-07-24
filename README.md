@@ -2,7 +2,7 @@
 Publish data from from a csv file and subscribe to it to get the time difference between consecutive datapoints in ROS using python.
 
 # Description
-Inside the ```ros2_ws/src/py_pubsub``` folder, ```publisher_member_function.py``` and ```subscriber_member_function.py``` contain the pythonic publisher and subscriber nodes respectively. The publisher logs the coordinates (longitude, latitude, altitude), time and actual speed on topic 'data'. The subscriber reads the message and publishes the time difference in seconds on topic 'diff'. 
+Inside the ```ros2_ws/src/py_pubsub``` folder, ```publisher_member_function.py``` and ```subscriber_member_function.py``` contain the pythonic publisher and subscriber nodes respectively. The publisher logs the coordinates (longitude, latitude, altitude), time and actual speed on topic ```data```. The subscriber reads the message and publishes the time difference in seconds on topic ```diff```. 
 
 # Requirements
 1) ROS2 Humble
@@ -18,7 +18,7 @@ Inside the ```ros2_ws/src/py_pubsub``` folder, ```publisher_member_function.py``
    ```colcon build --packages-select py_pubsub```
 4) In a new terminal, navigate to ros2_ws and source the steup files.
    ```source install/setup.bash```
-5) Run talker node for the publisher to view the coordinates (longitude, latitude, altitude), time and actual speed on topic 'data'.
+5) Run talker node for the publisher to view the coordinates (longitude, latitude, altitude), time and actual speed on topic ```data```.
    ```ros2 run py_pubsub talker```
-6) In a new terminal, source the setup files from inside ros2_ws again, and then start the listener node to see the time difference in seconds on topic 'diff'.
+6) In a new terminal, source the setup files from inside ros2_ws again, and then start the listener node to see the time difference in seconds on topic ```diff```.
    ```ros2 run py_pubsub listener```
