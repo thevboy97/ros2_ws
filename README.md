@@ -11,7 +11,7 @@ Inside the ```ros2_ws/src/py_pubsub/py_pubsub``` folder, ```publisher_member_fun
 4) datetime
 
 # How to run
-1) Make sure there is ROS2 Humble version installed, and pandas and datetime libraries are installed for use in python3. Download the ros2_ws to local machine and rename the folder exactly to ```ros2_ws```.
+1) Make sure there is ROS2 Humble version installed, and pandas and datetime libraries are installed for use in python3. Download the ```ros2_ws``` repository to local machine and rename the folder exactly to ```ros2_ws```, if it says ```ros2_ws-main```.
 2) Install any missing dependencies.
    ```rosdep install -i --from-path src --rosdistro humble -y```
 3) Build the package in the root workspace ros2_ws using colcon build.
